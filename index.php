@@ -16,8 +16,8 @@ echo "Hello Mr Cooollll!";
 <script type="text/javascript">
 	function checkInput(){
 		var name = document.getElementById('name').value;
-		if (name.length <5) {
-			alert('Name is less than 5 characters');
+		if (name.length <8) {
+			alert('Name is less than 8 characters');
 		}
 	}
 	function display(){
