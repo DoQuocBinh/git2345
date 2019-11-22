@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>My first PHP page</h1>
+<h1>Example page </h1>
 
 <?php
 echo "Hello Mr Cooollll!";	
@@ -10,7 +10,7 @@ echo "Hello Mr Cooollll!";
 <input type="text"  id="name">
 <br>
 <input type="text"  id="school">
-<br>
+<br>	
 <input type="button" value="Ok" onclick="display()">
 
 <script type="text/javascript">
