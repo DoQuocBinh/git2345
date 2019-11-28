@@ -3,9 +3,9 @@
 <body>
 	<h1>Create Product </h1>
 	<form action="insertProduct.php" method="post">
-		Name <input type="text" name="name" id="name">
+		Name <input type="text" name="name" >
 		<br>
-		Price <input type="text" name="price"  id="price">
+		Price <input type="text" name="price">
 		<br>
 		<input type="submit" value="Insert">
 	</form>
