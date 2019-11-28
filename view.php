@@ -30,7 +30,7 @@
         <?php
             foreach ($resultSet as $row) {
                 echo "<li>" .
-                 '<a href="delete.php?id=' . $row["pid"] .  '>' .   $row["name"] 
+                 '<a href="delete.php?id=' . $row["pid"] .  '">' .   $row["name"] 
                         . '--'. $row["price"] 
                 . '</a>'
                 . "</li>";
